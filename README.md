@@ -1,2 +1,2 @@
 # 7thWeekChallenge
-Week 7 Challenge by Laize
+Project based on Week 7 Challenge by Laize
