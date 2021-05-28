@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<!-- start main body -->
+<body class="body_container">
+    <header class="row header_container">
+        <nav>
+            <nav class="navbar navbar-expand-xl navbar-light fs-4">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img class="bird_logo" src="./images/birdlogo.jpg"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav float-end">
+                      <a class="nav-link active" aria-current="page" href="./index.html">Photos</a>
+                      <a class="nav-link" href="#">Videos</a>
+                      <a class="nav-link" href="#">About</a>
+                      <a class="nav-link" href="#">Contact</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </nav>
+        <section class="banner_bird">
+            <img src=".\images\birdbanner2.jpg" >
+            <div class="centered">
+                <form class="d-flex search_bar">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+            </div>             
+        </section>
+    </header>
+    <!-- start contact main body -->
+    <main class="main_col_C">             
+        <div class="photo_album row row_1_C" >
+            <div class="album_col_1 col col_1">
+                <h1>Contact Page</h1>
+                <form>
+                    <div class="mt-5">
+                        <label for="InputName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="InputName">
+                      </div>
+                    <div class="mt-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">                      
+                    </div>   
+                    <label for="exampleInputEmail1" class="form-label  mt-3" id="select_subject">Subject</label>              
+                    <select class="form-select" id="select_subject" aria-label="Default select example">                          
+                        <option selected>Choose one subject</option>                     
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                      <div class="mt-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" style="height:14rem;" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-secondary btn-lg mt-3 mb-3" >Submit</button>
+                  </form>
+            </div>
+            <div class="album_col col col_2" style="font-size: large;">
+                <h1>Our Address</h1>
+                <p class="mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam nesciunt velit laudantium veritatis recusandae, reiciendis dolorem repellendus minus atque, explicabo sunt dolorum? Quia, velit ducimus facere cupiditate aut aspernatur atque!</p>
+                <p class="mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem nulla tempora, autem laborum nemo totam beatae harum officiis quam eveniet, corrupti adipisci excepturi quos, hic repellat aperiam magnam minus velit?</p>
+                <p class="mt-5">Level 77, q1 building/9 Hamilton Ave, Surfers Paradise QLD 4217</p>
+                <p style='font-size:20px;'>&#x260F; &nbsp;&nbsp;&nbsp;Tel: ++61 02 80076542</p>
+                <p style='font-size:20px;'>&#128231;&nbsp;&nbsp;&nbsp;Email: info@henfriends@email.com</p>
+            </div>
+            <div class="album_col col col_3">
+                <h1>Our Location</h1>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150018.23644515316!2d153.37944662136704!3d-28.017081462774467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b911a472b5d60b7%3A0x302a35af3deaf70!2sGold%20Coast%20QLD!5e0!3m2!1sen!2sau!4v1622136113556!5m2!1sen!2sau" width="400" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                
+            </div>
+        </div>        
+        <div class="photo_album row row_4_C mt-1">
+            <div class="album_col col col_10">
+                <div class="card" style="width: 20rem; height: 20rem;">
+                    <img src="./images//ceo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title my-3">Puffy Garland</h5>
+                      <h5 class="card-title my-3">CEO</h5>                     
+                    </div>
+                  </div>
+            </div>
+            <div class="album_col col col_11">
+                <div class="card" style="width: 20rem; height: 20rem;">
+                    <img src="./images/cfo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title my-3">Beany Walker</h5>
+                      <h5 class="card-title my-3">CFO</h5>                      
+                    </div>
+                  </div>
+            </div>
+            <div class="album_col col col_12">
+                <div class="card" style="width: 20rem; height: 20rem;">
+                    <img src="./images/cto.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title my-3">Wizzy Jenkins</h5>
+                      <h5 class="card-title my-3">CTO</h5>                      
+                    </div>
+                  </div>
+            </div>           
+        </div>
+        <div class="photo_album row row_5_C mt-1">
+            <div class="album_col col col_13">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatum quis, libero amet deleniti quae cupiditate sequi dicta molestiae recusandae  </p>
+            </div>
+            <div class="album_col col col_14">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, nulla illum aliquam fuga doloribus ex temporibus eum? Ab molestias architecto esse labore! </p>
+            </div>
+            <div class="album_col col col_15">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quod delectus cupiditate quam quaerat adipisci ipsum a rem quidem quia ipsa veritatis, </p>
+            </div>
+        </div>
+        <div class="page_links mt-5">
+            <div class="btn-group" role="group" aria-label="Third group">
+                <button type="button" class="btn btn-primary btn-lg" style="background-color: rgb(5, 47, 91); border:none;">Previous</button>
+            </div>
+            <div>
+                <div class="btn-group ms-3" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info btn-lg" style="background-color: rgb(127, 211, 214); border:none;">1</button>
+                </div>
+                <div class="btn-group ms-3" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info btn-lg" style="background-color: rgb(127, 211, 214); border:none;">2</button>
+                </div>
+                <div class="btn-group ms-3" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info btn-lg" style="background-color: rgb(127, 211, 214); border:none;">3</button>
+                </div>
+                <div class="btn-group ms-3" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-info btn-lg" style="background-color: rgb(127, 211, 214); border:none;">4</button>
+                </div>
+            </div>            
+            <div class="btn-group" role="group" aria-label="Third group">
+                <button type="button" class="btn btn-primary btn-lg" style="background-color: rgb(5, 47, 91); border:none;">Next Page</button>
+            </div>            
+        </div>
+    </main>
+    <!-- end main contact body -->
+    <footer>
+        <section class="about_contact">
+            <div class="about">
+                <h3>About</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam magnam quibusdam dignissimos hic sequi laborum sit facere laudantium deserunt culpa sapiente commodi, quaerat voluptatem eligendi fuga recusandae illo veniam nobis?</p>
+            </div>
+            <div class="contact">
+                <h3>Contact</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam magnam quibusdam dignissimos hic sequi laborum sit facere laudantium deserunt culpa sapiente commodi, quaerat voluptatem eligendi fuga recusandae illo veniam nobis?</p>
+            </div>
+        </section>
+        <section class="copyright">
+            <div><p>Copyright 2021 &copy Utpal & Co. All rights reserved.</p> </div>
+            <div><p>Designed by Utpal</p></div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>  
+</body>
+</html>
